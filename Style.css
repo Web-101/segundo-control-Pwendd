@@ -1,0 +1,127 @@
+body {
+    margin: 0px auto;
+    max-width: 1024px;
+    font-family: sans-serif;
+}
+
+/*Header*/
+header {
+    border-bottom: solid 2px #d6e9fc;
+    padding: 10px 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#paginas {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/*Main*/
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+main p {
+    font-size: 16px;
+}
+
+#parte1 {
+    display: flex;
+}
+
+#parte1 h2 {
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+#parte1 figure {
+    width: 100%;
+    margin: 0px;
+    padding: 16px 40px 0px 0px;
+}
+
+#parte1 figure img {
+    width: 100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #F0426E;
+    color: white;
+    border: none;
+    width: 100%;
+    min-height: 50px;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#parte2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#parte2 #flores {
+    display: flex;
+    gap: 10px;
+}
+
+#parte2 #flores .foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#parte2 #flores .foto {
+    flex-grow: 1;
+    font-weight: 550;
+}
+
+#parte2 .des_planta {
+    font-weight: 100;
+}
+
+
+/*Footer*/
+footer,
+.des_planta {
+    color: #994D5E;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#cont1_foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+#cont2_foot {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#cont3_foot {
+    text-align: center;
+}
